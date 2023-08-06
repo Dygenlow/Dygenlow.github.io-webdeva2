@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Jogging</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <script src ="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Jogging</h1>
+    </header>
+
+    <nav> <!--menu system-->
+        <button id="hamIcon">Menu</button>
+        <ul id="menuList">
+            <li><button id="page1btn">Home</button></li>
+            <li><button id="page2btn">Benefits</button></li>
+            <li><button id="page3btn">Routine/Goal</button></li>
+            <li><button id="page4btn">How to make it fun?</button></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <div id="pagecontainer">
+        <div class="page" id="page1">
+            <h2>Why exercise?</h2>
+            <div>
+                <p>
+                    Regular physical activity is one of the most important things you can do for your health. <br>
+                    Being physically active can improve your brain health, help manage weight, reduce the risk of disease, <br>
+                    strengthen bones and muscles, and improve your ability to do everyday activities.
+                </p>
+
+                <div onmouseover="mOver(this)" onmouseout="mOut(this)" id="TableContent">
+                    Hover over for Table of Content
+                </div>
+
+                <div id="image1">
+                    <img src ="Images/Jogging.png" alt = "Lady Jogging" width="30%" height="40%">
+                </div>
+            </div>
+        </div>
+
+        <!-- Benefits -->
+        <div class="page" id="page2">
+            <h2>Benefits of Jogging</h2>
+
+            <div>
+                <p>
+                    Regular running or jogging offers many health benefits. Running can:
+                </p>
+
+                <ul>
+                    <li>help to build strong bones, as it is a weight bearing exercise</li>
+                    <li>strengthen muscles</li>
+                    <li>improve cardiovascular fitness</li>
+                    <li>burn plenty of kilojoules</li>
+                    <li>help maintain a healthy weight.</li>
+                </ul>
+
+                <p>
+                    An inactive lifestyle is associated with higher mortality,coronary artery disease, hypertension and stroke. <br>
+                    It is also a primary cause of most chronic diseases, as the body rapidly adapts to insufficient physical <br>
+                    activity which results in substantially reduced quality of life.
+                </p>
+
+                <p>
+                    Regular physical activity such as running can significantly improve mental health, 
+                    self-confidence, healthy ageing, and quality of life. 
+                </p>
+                
+                <div id="image2">
+                    <img src ="Images/MuscleGroups.jpg" alt = "Muscle Areas/Groups" width="30%" height="40%">
+                </div>
+            </div>
+        </div>
+
+        <!-- Setting Routine/Goal -->
+        <div class="page" id="page3">
+            <h2>Setting Routine/Goal</h2>
+
+            <div>
+                <p>
+                    Think about what you want to achieve from running or jogging. Issues to consider may include:
+                </p>
+
+                <ul>
+                    <li>
+                        <b>Getting fit</b> - if you're a beginner, you should start with brisk walking, 
+                        progress to jogging and work up to running. This should take a few months.
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <b>General fitness</b> - mix your running with other forms of exercise 
+                        (such as swimming or team sports) to maximise your overall fitness.
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <b>Weight loss</b> - adjust your diet to include plenty of fresh fruits and vegetables, lean meats, 
+                        wholegrain cereals and low-fat dairy products. Cut back on dietary fats, takeaway foods, soft drinks and sugar.
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <b>Companionship</b> - you could run with a friend or join a local running club.
+                    </li>
+
+                    <br>
+
+                    <li>
+                    <b>Competition</b> - running clubs may offer competitive events. <br>
+                        Most clubs have sessions designed for beginners through to advanced runners. <br>
+                        You can pit your running skills against others in fun runs or marathons. <br>
+                        Many community-based running events cater for people of all ages and abilities. <br>
+                        Join a local orienteering club to combine running with the challenge of navigating through various environments.
+                    </li>
+                </ul>
+
+                <div id="image3">
+                    <img src ="Images/RoutinePlan.jpg" alt = "Jogging routine plan" width="30%" height="40%">
+                </div>
+            </div>
+        </div>
+
+        <!-- How to make jogging fun -->
+        <div class="page" id="page4">
+            <h2>Make jogging fun</h2>
+
+            <div>
+                <p>
+                    Running is hard. This is a generally accepted universal truth — at least amongst beginners. <br>
+                    But there are tonnes of things every runner can do to make the process a lot more enjoyable, <br>
+                    helping you become the sort of runner who actually really loves it.
+                </p>
+
+                <br>
+
+                <!-- Point #1 -->
+                <div class="box">
+                    <div class="js-toggle" data-container="toggle-1">
+                        <h3>1. Make It Easy</h3>
+                    </div>
+
+                    <div class="toggle-container" id="toggle-1">
+                        <p>
+                            Most beginners go out too hard and fast and run themselves into the ground. <br>
+                            It does not have to be that hard, especially when starting out.
+                        </p>
+                        
+                        <p>
+                            Try breaking the run into chunks of time. Walk a bit, run a bit; or run a bit, jog a bit. <br>
+                            Why not start with 15-30s blocks of running and 1-2 minutes of walking? <br>
+                            This will give you a chance to build up not just the lung capacity to run for longer, <br>
+                            but the capacity through your joints and your mind.
+                        </p>
+                        
+                        <p>
+                            Try to maintain a conversational pace. This means running a lot slower than you think. <br>
+                            If you couldn't hold a conversation, it's too fast. Make it easier.
+                        </p>
+                    </div>
+                </div>
+
+                <br>
+
+                <!-- Point #2 -->
+                <div class="box">
+                    <div class="js-toggle" data-container="toggle-2">
+                        <h3>2. Run with Friends</h3>
+                    </div>
+
+                    <div class="toggle-container" id="toggle-2">
+                        <p>
+                            Two is better than one! Bring a friend along on your run to instantly make your run more fun. <br>
+                            Slow down the pace so you can talk or challenge each other by pushing the pace a little faster than you would on your own.
+                        </p>
+        
+                        <p>
+                            If you don't have any friends who enjoy running or anyone you can convince to hit the streets <br>
+                            or trails with you - search for local running clubs. Many running clubs often meet up at public places, <br>
+                            and the great thing is they're filled with people who are into running and can provide encouragement <br>
+                            and motivation in your journey, as well as endless tips to help you become a better runner!
+                        </p>
+
+                        <div id="image4">
+                            <img src ="Images/Jog_with_friends.png" alt = "Jogging with friends" width="30%" height="40%">
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <!-- Point #3-->
+                <div class="box">
+                    <div class="js-toggle" data-container="toggle-3">
+                        <h3>3. Take in the Outdoors</h3>
+                    </div>
+                    
+                    <div class="toggle-container" id="toggle-3">
+                        <p>
+                            Perhaps the biggest reason I love running is the unique perspective you get of wherever you are. <br>
+                            Whether seeing my own hometown from a new angle or route or exploring the streets by foot when <br>
+                            on vacation - you'll never see the world quite the same as when you're on a run! But if you <br>
+                            don't pause to intentionally take it all in, you might just miss it.
+                        </p>
+        
+                        <p>
+                            Pull yourself out of your head (and your pain) and take in your surroundings. <br>
+                            The beautiful outdoors is a great distraction from your run and can make you <br>
+                            feel more like you're on an exciting adventure than working out.
+                        </p>
+
+                        <div id="image5">
+                            <img src ="Images/Scenery.jpg" alt = "Scenic park" width="30%" height="40%">
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <!-- Point #4-->
+                <div class="box">
+                    <div class="js-toggle" data-container="toggle-4">
+                        <h3>4. Listen to Music or a Podcast</h3>
+                    </div>
+
+                    <div class="toggle-container" id="toggle-4">
+                        <p>
+                            Stay entertained during your run by listening to music or a podcast. <br>
+                            When it comes to music - listen to whatever makes you happy. Running to upbeat <br>
+                            music can help boost your mood and performance. I recommend building your <br>
+                            playlist in advance so you don't have to mess with your music on your run.
+                        </p>
+        
+                        <p>
+                            When it comes to podcasts, there is no shortage of options out there. <br>
+                            I recommend listening to something that will keep you engaged and entertained. <br>
+                            The goal is to make your run more fun, not the other way around.
+                        </p>
+
+                        <div id="image6">
+                            <img src ="Images/Listen_music.png" alt = "Guy listening to music" width="30%" height="40%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
